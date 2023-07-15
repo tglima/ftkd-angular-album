@@ -128,3 +128,40 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# profiling files
+chrome-profiler-events*.json
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+/node_modules
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
