@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "build-ghp": "ng build --output-path ghpages --base-href /ftkd-angular-album/ && cp ghpages/index.html ghpages/404.html",
+    "build-ghp": "ng build --output-path docs --base-href /ftkd-angular-album/ && cp docs/index.html docs/404.html",
     "lint": "tsc --noEmit && eslint . --ext js,ts,json --quiet --fix"
   },
   "private": true,
